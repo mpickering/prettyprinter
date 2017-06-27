@@ -43,7 +43,9 @@ packages:
     - 'prettyprinter-convert-ansi-wl-pprint'
     - 'prettyprinter-compat-annotated-wl-pprint'
 
-    - location: ../ansi-wl-pprint
+    - location:
+        git: git@github.com:quchen/ansi-wl-pprint.git
+        commit: d3fbc6b05593bd76c9bdb3caf36a8362d354fe7f
       extra-dep: true
 
 # Dependency packages to be pulled from upstream that are not in the resolver
